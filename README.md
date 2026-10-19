@@ -2,7 +2,7 @@
 
 Custom code used in Bonuzzi, Conci, Ciciani *et al.*, 2026. Data required to reproduce the analyses is provided in `data`. Sequencing data is publicly available at https://www.ncbi.nlm.nih.gov/sra/PRJNA1533856.
 
-Use `conda create --file environment.yml` to install all dependencies necessary to reproduce the analysis. Then, `conda activate TnpB_data_analysis`.
+Use `conda create --file environment.yaml` to install all dependencies necessary to reproduce the analysis. Then, `conda activate TnpB_data_analysis`.
 
 * `get_conserved_residues.ipynb` was used to align TnpB variants active in *E. coli* and identify conserved amino acid residues.
 * `TnpB_tree.ipynb` was used to generate the maximum likelyhood phylogeny of selected TnpB variants.
